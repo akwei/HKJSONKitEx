@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B202F9F162EB05C002D859C /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B202F9E162EB05C002D859C /* json.txt */; };
+		9B202FA3162EB0F7002D859C /* HKRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B202FA2162EB0F7002D859C /* HKRestaurant.m */; };
+		9B202FA6162EB12A002D859C /* HKFoodCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B202FA5162EB12A002D859C /* HKFoodCat.m */; };
+		9B202FA9162EB138002D859C /* HKFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B202FA8162EB138002D859C /* HKFood.m */; };
+		9B202FAC162EB14D002D859C /* HKRestaurantMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B202FAB162EB14D002D859C /* HKRestaurantMenu.m */; };
+		9B202FAF162EB15C002D859C /* HKFoodPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B202FAE162EB15C002D859C /* HKFoodPrice.m */; };
+		9B202FB7162EC411002D859C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B202FB6162EC411002D859C /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9BF54D13162C228F00DB562D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF54D12162C228F00DB562D /* UIKit.framework */; };
 		9BF54D15162C228F00DB562D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF54D14162C228F00DB562D /* Foundation.framework */; };
 		9BF54D17162C228F00DB562D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF54D16162C228F00DB562D /* CoreGraphics.framework */; };
@@ -18,9 +25,23 @@
 		9BF54D29162C228F00DB562D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF54D28162C228F00DB562D /* Default-568h@2x.png */; };
 		9BF54D2C162C228F00DB562D /* HKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54D2B162C228F00DB562D /* HKViewController.m */; };
 		9BF54D2F162C228F00DB562D /* HKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF54D2D162C228F00DB562D /* HKViewController.xib */; };
+		9BF54D37162C23F400DB562D /* HKJSONEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54D36162C23F400DB562D /* HKJSONEx.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B202F9E162EB05C002D859C /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		9B202FA1162EB0F7002D859C /* HKRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKRestaurant.h; sourceTree = "<group>"; };
+		9B202FA2162EB0F7002D859C /* HKRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKRestaurant.m; sourceTree = "<group>"; };
+		9B202FA4162EB12A002D859C /* HKFoodCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKFoodCat.h; sourceTree = "<group>"; };
+		9B202FA5162EB12A002D859C /* HKFoodCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKFoodCat.m; sourceTree = "<group>"; };
+		9B202FA7162EB138002D859C /* HKFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKFood.h; sourceTree = "<group>"; };
+		9B202FA8162EB138002D859C /* HKFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKFood.m; sourceTree = "<group>"; };
+		9B202FAA162EB14D002D859C /* HKRestaurantMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKRestaurantMenu.h; sourceTree = "<group>"; };
+		9B202FAB162EB14D002D859C /* HKRestaurantMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKRestaurantMenu.m; sourceTree = "<group>"; };
+		9B202FAD162EB15C002D859C /* HKFoodPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKFoodPrice.h; sourceTree = "<group>"; };
+		9B202FAE162EB15C002D859C /* HKFoodPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKFoodPrice.m; sourceTree = "<group>"; };
+		9B202FB5162EC411002D859C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		9B202FB6162EC411002D859C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		9BF54D0E162C228F00DB562D /* HKJSONKitEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKJSONKitEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF54D12162C228F00DB562D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BF54D14162C228F00DB562D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +58,8 @@
 		9BF54D2A162C228F00DB562D /* HKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKViewController.h; sourceTree = "<group>"; };
 		9BF54D2B162C228F00DB562D /* HKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKViewController.m; sourceTree = "<group>"; };
 		9BF54D2E162C228F00DB562D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HKViewController.xib; sourceTree = "<group>"; };
+		9BF54D35162C23F400DB562D /* HKJSONEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKJSONEx.h; sourceTree = "<group>"; };
+		9BF54D36162C23F400DB562D /* HKJSONEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKJSONEx.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B202FB4162EC411002D859C /* jsonkit */ = {
+			isa = PBXGroup;
+			children = (
+				9B202FB5162EC411002D859C /* JSONKit.h */,
+				9B202FB6162EC411002D859C /* JSONKit.m */,
+			);
+			path = jsonkit;
+			sourceTree = "<group>";
+		};
 		9BF54D03162C228F00DB562D = {
 			isa = PBXGroup;
 			children = (
@@ -83,12 +115,26 @@
 		9BF54D18162C228F00DB562D /* HKJSONKitEx */ = {
 			isa = PBXGroup;
 			children = (
+				9B202FB4162EC411002D859C /* jsonkit */,
 				9BF54D21162C228F00DB562D /* HKAppDelegate.h */,
 				9BF54D22162C228F00DB562D /* HKAppDelegate.m */,
 				9BF54D2A162C228F00DB562D /* HKViewController.h */,
 				9BF54D2B162C228F00DB562D /* HKViewController.m */,
 				9BF54D2D162C228F00DB562D /* HKViewController.xib */,
 				9BF54D19162C228F00DB562D /* Supporting Files */,
+				9BF54D35162C23F400DB562D /* HKJSONEx.h */,
+				9BF54D36162C23F400DB562D /* HKJSONEx.m */,
+				9B202F9E162EB05C002D859C /* json.txt */,
+				9B202FA1162EB0F7002D859C /* HKRestaurant.h */,
+				9B202FA2162EB0F7002D859C /* HKRestaurant.m */,
+				9B202FA4162EB12A002D859C /* HKFoodCat.h */,
+				9B202FA5162EB12A002D859C /* HKFoodCat.m */,
+				9B202FA7162EB138002D859C /* HKFood.h */,
+				9B202FA8162EB138002D859C /* HKFood.m */,
+				9B202FAA162EB14D002D859C /* HKRestaurantMenu.h */,
+				9B202FAB162EB14D002D859C /* HKRestaurantMenu.m */,
+				9B202FAD162EB15C002D859C /* HKFoodPrice.h */,
+				9B202FAE162EB15C002D859C /* HKFoodPrice.m */,
 			);
 			path = HKJSONKitEx;
 			sourceTree = "<group>";
@@ -164,6 +210,7 @@
 				9BF54D27162C228F00DB562D /* Default@2x.png in Resources */,
 				9BF54D29162C228F00DB562D /* Default-568h@2x.png in Resources */,
 				9BF54D2F162C228F00DB562D /* HKViewController.xib in Resources */,
+				9B202F9F162EB05C002D859C /* json.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +224,13 @@
 				9BF54D1F162C228F00DB562D /* main.m in Sources */,
 				9BF54D23162C228F00DB562D /* HKAppDelegate.m in Sources */,
 				9BF54D2C162C228F00DB562D /* HKViewController.m in Sources */,
+				9BF54D37162C23F400DB562D /* HKJSONEx.m in Sources */,
+				9B202FA3162EB0F7002D859C /* HKRestaurant.m in Sources */,
+				9B202FA6162EB12A002D859C /* HKFoodCat.m in Sources */,
+				9B202FA9162EB138002D859C /* HKFood.m in Sources */,
+				9B202FAC162EB14D002D859C /* HKRestaurantMenu.m in Sources */,
+				9B202FAF162EB15C002D859C /* HKFoodPrice.m in Sources */,
+				9B202FB7162EC411002D859C /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +346,7 @@
 				9BF54D34162C228F00DB562D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
