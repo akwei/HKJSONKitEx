@@ -1,9 +1,9 @@
 //
 //  HKDicToObj.h
 //  HKJSONKitEx
-//  可以简化json对应的对象的赋值操作，例如json数据对应 User 对象，只要json中key与 User 对象的property对应就可以赋值
-//  目前支持类型为 NSString NSInteger double float BOOL  NSNumber long long 等数字类型，支持自定义对象类型 NSArray 需要定义好集合中的对象类型
 /*
+ 可以简化json对应的对象的赋值操作，例如json数据对应 User 对象，只要json中key与 User 对象的property对应就可以赋值
+ 目前支持类型为 NSString NSInteger double float BOOL  NSNumber long long 等数字类型，支持自定义对象类型 NSArray 需要定义好集合中的对象类型
     example:
      HKJSONEx* ex = [[HKJSONEx alloc] init];//初始化
  

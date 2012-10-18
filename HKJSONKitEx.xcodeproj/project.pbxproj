@@ -16,6 +16,7 @@
 		9B202FB7162EC411002D859C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B202FB6162EC411002D859C /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9B202FBA162EE09B002D859C /* HKJsonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B202FB9162EE09A002D859C /* HKJsonTest.m */; };
 		9BDCD41B162FA55F0038C05F /* HKObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCD41A162FA55F0038C05F /* HKObj.m */; };
+		9BDCD423162FA86E0038C05F /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 9BDCD422162FA86D0038C05F /* README.MD */; };
 		9BF54D13162C228F00DB562D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF54D12162C228F00DB562D /* UIKit.framework */; };
 		9BF54D15162C228F00DB562D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF54D14162C228F00DB562D /* Foundation.framework */; };
 		9BF54D17162C228F00DB562D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF54D16162C228F00DB562D /* CoreGraphics.framework */; };
@@ -48,6 +49,7 @@
 		9B202FB9162EE09A002D859C /* HKJsonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKJsonTest.m; sourceTree = "<group>"; };
 		9BDCD419162FA55F0038C05F /* HKObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKObj.h; sourceTree = "<group>"; };
 		9BDCD41A162FA55F0038C05F /* HKObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKObj.m; sourceTree = "<group>"; };
+		9BDCD422162FA86D0038C05F /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.MD; sourceTree = "<group>"; };
 		9BF54D0E162C228F00DB562D /* HKJSONKitEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKJSONKitEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF54D12162C228F00DB562D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BF54D14162C228F00DB562D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +96,7 @@
 		9BF54D03162C228F00DB562D = {
 			isa = PBXGroup;
 			children = (
+				9BDCD422162FA86D0038C05F /* README.MD */,
 				9BF54D18162C228F00DB562D /* HKJSONKitEx */,
 				9BF54D11162C228F00DB562D /* Frameworks */,
 				9BF54D0F162C228F00DB562D /* Products */,
@@ -221,6 +224,7 @@
 				9BF54D29162C228F00DB562D /* Default-568h@2x.png in Resources */,
 				9BF54D2F162C228F00DB562D /* HKViewController.xib in Resources */,
 				9B202F9F162EB05C002D859C /* json.txt in Resources */,
+				9BDCD423162FA86E0038C05F /* README.MD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
