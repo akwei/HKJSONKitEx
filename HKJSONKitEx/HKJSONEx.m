@@ -79,6 +79,11 @@ static dispatch_queue_t syncQueue;
     return instance;
 }
 
+-(NSString*)classNameWithTypeEncoding:(NSString*)typeEncoding{
+    NSString* s = [[typeEncoding stringByReplacingOccurrencesOfString:@"@" withString:@""] stringByReplacingOccurrencesOfString:@"\"" withString:@""];
+    return s;
+}
+
 -(void)setPropertyValue:(NSString *)propertyName
                  object:(id)obj
            objClassInfo:(HKObjClassInfo*)classInfo
@@ -123,7 +128,8 @@ static dispatch_queue_t syncQueue;
         }
         //可能是类属性
         else{
-            Class cls = [self typeTokenForProperty:propertyName cls:classInfo.cls];
+            Class cls = NSClassFromString([self classNameWithTypeEncoding:pinfo.type]);
+//            Class cls = [self typeTokenForProperty:propertyName cls:classInfo.cls];
             id objOfProperty = [self objectForClass:cls values:value];
             [obj setValue:objOfProperty forKey:propertyName];
         }

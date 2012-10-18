@@ -14,6 +14,7 @@
 #import "HKFoodPrice.h"
 #import "JSONKit.h"
 #import "HKRestaurant.h"
+#import "HKObj.h"
 
 @implementation HKJsonTest
 
@@ -33,11 +34,14 @@
     [ex property:@"prices" cls:[HKFood class] addTypeToken:[HKFoodPrice class]];
     [ex property:@"food_ids" cls:[HKFoodCat class] addTypeToken:[NSNumber class]];
     
-    //从NSDictionary 中获得对象数据
-    HKRestaurantMenu* menu = [ex objectForClass:[HKRestaurantMenu class] values:[dic valueForKey:@"menu"]];
+//    //从NSDictionary 中获得对象数据
+//    HKRestaurantMenu* menu = [ex objectForClass:[HKRestaurantMenu class] values:[dic valueForKey:@"menu"]];
+//    
+//    HKRestaurant* info = [ex objectForClass:[HKRestaurant class] values:[dic valueForKey:@"info"]];
+    HKObj* obj = [ex objectForClass:[HKObj class] values:dic];
     
-    HKRestaurant* info = [ex objectForClass:[HKRestaurant class] values:[dic valueForKey:@"info"]];
-    
+    HKRestaurantMenu* menu = obj.menu;
+    HKRestaurant* info = obj.info;
     
     NSLog(@"menu ===========");
     NSLog(@"restaurant_id:%lu",(unsigned long)[menu restaurant_id]);

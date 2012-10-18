@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HKRestaurantMenu.h"
 
 @interface HKRestaurant : NSObject
 
@@ -23,5 +24,6 @@
 @property(nonatomic,copy)NSString* feature;
 @property(nonatomic,copy)NSString* public_ip;
 @property(nonatomic,copy)NSString* service_ip;
+@property(nonatomic,strong)HKRestaurantMenu* menu;
 
 @end
