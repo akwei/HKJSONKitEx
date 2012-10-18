@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HKJSONKitEx/HKJSONEx.m"
-         timestampString = "372170030.722264"
+         timestampString = "372221003.902183"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "89"
-         endingLineNumber = "89"
+         startingLineNumber = "94"
+         endingLineNumber = "94"
          landmarkName = "-setPropertyValue:object:objClassInfo:value:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HKJSONKitEx/HKJSONEx.m"
-         timestampString = "372170030.722264"
+         timestampString = "372221003.902183"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "93"
-         endingLineNumber = "93"
+         startingLineNumber = "98"
+         endingLineNumber = "98"
          landmarkName = "-setPropertyValue:object:objClassInfo:value:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,24 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HKJSONKitEx/HKJSONEx.m"
-         timestampString = "372170030.722264"
+         timestampString = "372221003.902183"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "110"
-         endingLineNumber = "110"
-         landmarkName = "-setPropertyValue:object:objClassInfo:value:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "HKJSONKitEx/HKJSONEx.m"
-         timestampString = "372170030.722264"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "87"
-         endingLineNumber = "87"
+         startingLineNumber = "92"
+         endingLineNumber = "92"
          landmarkName = "-setPropertyValue:object:objClassInfo:value:"
          landmarkType = "5">
       </FileBreakpoint>
