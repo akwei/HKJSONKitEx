@@ -123,13 +123,12 @@ static dispatch_queue_t syncQueue;
                     id objOfProperty = [self objectForClass:objCls values:dic];
                     [list addObject:objOfProperty];
                 }
-                [obj setValue:list forKey:propertyName];
             }
+            [obj setValue:list forKey:propertyName];
         }
         //可能是类属性
         else{
             Class cls = NSClassFromString([self classNameWithTypeEncoding:pinfo.type]);
-//            Class cls = [self typeTokenForProperty:propertyName cls:classInfo.cls];
             id objOfProperty = [self objectForClass:cls values:value];
             [obj setValue:objOfProperty forKey:propertyName];
         }
